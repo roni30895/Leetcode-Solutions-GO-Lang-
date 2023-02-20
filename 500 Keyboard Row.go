@@ -1,12 +1,12 @@
-first_row := map[byte]bool {
+ var first_row = map[byte]bool {
     'q': true, 'w': true, 'e': true, 'r': true, 't': true, 'y': true, 'u': true, 'i': true, 'o': true, 'p': true,
 }
 
-second_row := map[byte]bool{
+var second_row = map[byte]bool{
 	'a': true, 's': true, 'd': true, 'f': true, 'g': true, 'h': true, 'j': true, 'k': true, 'l': true,
 }
 
-third_row := map[byte]bool{
+var third_row = map[byte]bool{
 	'z': true, 'x': true, 'c': true, 'v': true, 'b': true, 'n': true, 'm': true,
 }
 func is_word_char_in(s string, isinRow map[byte]bool) bool {
